@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+    padding: 20px 10%;
+    background: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+section {
+    padding: 100px 20%;
+}
+
+.Anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 70px 10%;
+}
+
+.Anasayfa-content {
+    max-width: 600px;
+}
+
+.Anasayfa-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.Anasayfa-content h2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.Anasayfa-content p {
+    font-size: 20px;
+}
+
+.Anasayfa-sci {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Anasayfa-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.Anasayfa-sci a:hover {
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+}

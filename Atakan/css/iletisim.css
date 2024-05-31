@@ -1,0 +1,42 @@
+body {
+    background: url('resimler/iletişim_bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  .contact-info h2 {
+    margin-top: 0;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .contact-info a:hover {
+    color: #23527c;
+  }

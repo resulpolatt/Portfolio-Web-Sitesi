@@ -1,0 +1,28 @@
+body {
+    background: url('../resimler/anasayfa_bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.social-media {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.social-media a {
+	margin: 0 10px;
+}
+
+.social-media a img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 2px solid #ccc;
+	padding: 5px;
+	transition: transform .2s;
+}
+
+.social-media a img:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
